@@ -1,0 +1,141 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.search-widget-heading{
+  margin: 20px;
+  font-weight: bold;
+}
+
+hr{
+  display: block;
+  border-width: 2px;
+  opacity: 0.5;
+  color: black;
+}
+
+.bottom-hr{
+  width:90%;
+}
+
+.btn{
+  border: none;
+  border-radius: 50px;
+  background-color: white;
+  color: black;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  color: white;
+}
+.info {
+  background: #2196F3;
+}
+
+ .info-cell{
+  padding: 20px;
+  flex:1;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+}
+
+
+ /* Align items towards start of flex and not mid */
+.row .info-cell:last-child,
+.row .info-cell:first-child{
+  align-items: flex-start;
+  flex: 0 0 100px;
+}
+
+/* Bold item */
+.info-cell strong,
+.info-cell span,
+.info-cell small,bold{
+  display: block;
+}
+
+.travel-schedule{
+  background-color: sandybrown;
+}
+
+.schedule-date{
+  font-size: 40px;
+}
+
+.schedule-year{
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.heading-blue{
+  color: dodgerblue;
+  font-weight: bold;
+} 
+
+.upper{
+  text-transform: uppercase;
+}
+.ltext{
+  opacity: 0.4;
+  font-weight: bold; 
+}
+
+.input{
+  border: none;
+  font-weight: bold;
+  width: 30px;
+  cursor: pointer;
+  position: relative;
+  text-align: center;
+  outline: none;
+}
+
+.round-button{
+  border-radius: 50%;
+  border: 1px solid black;
+  outline: none;
+}
+/* input[type='number']{
+  margin-left: 15px;
+} */
+/*** Flex classes ***/
+
+.d-flex{
+  display: flex;
+} 
+.f-column{
+  flex-direction: column;
+}
+
+/* from left right */
+
+.justify-center{
+  justify-content: center;
+}
+
+/* from top bottm */
+.align-item-center{
+  align-items: center;
+}
+
+/* space beetween 2 fixed container (It's maintain outside space)*/
+.flex-space-beetween{
+  justify-content: space-between;
+}
+  
+.align-text{
+  align-self: center;
+}
+
+.info-cell .traveller-details {
+  text-align: center;
+}
+.SubmitButton {
+  position: fixed;
+  top: 100px;
+  left: 10px;
+}
